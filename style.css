@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Cinzel:wght@400;700&family=Josefin+Sans:wght@100;400&family=Redressed&display=swap');
+body{
+    background-color:rgb(189, 124, 135) !important;
+    font-family: 'Redressed', cursive !important;
+    font-size: 20px !important;
+    
+  }
+  ul{
+   
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  ul li{
+    padding: 7px;
+  }
+  h1{
+    color: #0B045B;
+    font-size: 50px !important;
+  }
+  .text-center{
+    color: #0B045B;
+  }
+  nav{
+    display: inline-block;
+  }
+  input[type=button]{
+    font-size:small;
+    padding: 5px;
+    color:#327ABC !important;
+    background-color: #fff;
+    border: 1px solid #327ABC;
+    border-radius: 4px;
+  }
+
+#thead{
+  color:#0B045B;
+}
+#tbody{
+  color:#fff;
+}
+
+  input:hover{
+    font-size:small;
+    padding: 5px;
+    color:#fff !important;
+    background-color: #327ABC;
+    border: 1px solid #327ABC;
+    border-radius: 4px;
+  }
+
+  @media screen and (min-width:1020px) {
+  ul{
+    width:40rem;
+  }
+  input[type=button]{
+    font-size:large;
+    padding: 12px;
+  }
+  }
